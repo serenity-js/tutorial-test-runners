@@ -1,0 +1,4 @@
+require:
+  - ts-node/register
+spec: 'spec/**/*.spec.ts'
+timeout: 5000

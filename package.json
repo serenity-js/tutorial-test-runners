@@ -4,7 +4,7 @@
   "description": "Serenity/JS and test runners",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node spec/hello-serenity.ts"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,10 @@
   "devDependencies": {
     "@serenity-js/console-reporter": "^2.30.1",
     "@serenity-js/core": "^2.30.1",
+    "@serenity-js/mocha": "^2.30.1",
+    "@types/mocha": "^9.0.0",
     "@types/node": "^16.4.6",
+    "mocha": "^9.0.3",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
   },
