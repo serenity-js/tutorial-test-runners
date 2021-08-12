@@ -7,19 +7,17 @@ describe('Mocha', () => {
 
         it('has no body as "pending"')
 
-        it.skip('is skipped', () => {
-
-        })
 
         it('has no errors as "passing"', () => {
 
         })
 
-        it('has assertion errors as "failing"', () => {
+        // remove '.skip' to see how failing tests are reported
+        it.skip('has assertion errors as "failing"', () => {
             strictEqual(false, true, 'example assertion')
         })
 
-        it('has any other errors as "failing" too', () => {
+        it.skip('has any other errors as "failing" too', () => {
             throw new Error('Something went wrong')
         })
     })
