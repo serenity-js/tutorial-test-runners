@@ -1,14 +1,14 @@
 {
-  "name": "tutorial-hello-serenity-js",
+  "name": "tutorial-test-runners",
   "version": "1.0.0",
-  "description": "Hello, Serenity/JS!",
+  "description": "Serenity/JS and test runners",
   "main": "index.js",
   "scripts": {
     "test": "ts-node spec/hello-serenity.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serenity-js/tutorial-hello-serenity-js.git"
+    "url": "git+https://github.com/serenity-js/tutorial-test-runners.git"
   },
   "author": {
     "name": "Jan Molak",
@@ -17,7 +17,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/serenity-js/tutorial-hello-serenity-js/issues"
+    "url": "https://github.com/serenity-js/tutorial-test-runners/issues"
   },
   "homepage": "https://serenity-js.org",
   "devDependencies": {
