@@ -1,5 +1,6 @@
 import { strictEqual } from 'assert';
 import { describe, it } from 'mocha'
+import { actorCalled, Log } from '@serenity-js/core';
 
 describe('Mocha', () => {
 
@@ -19,6 +20,12 @@ describe('Mocha', () => {
 
         it.skip('has any other errors as "failing" too', () => {
             throw new Error('Something went wrong')
+        })
+
+        it('follows the Screenplay Pattern', () => {
+            return actorCalled('Alice').attemptsTo(
+                Log.the('Hello Serenity/JS'),
+            )
         })
     })
 })
